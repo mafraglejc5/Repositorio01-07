@@ -9,13 +9,13 @@ let process = require ("process");
 let  comando = process.argv [2] //argv toma dato de la consola y lo ejecuta en el codigo, devuelve un array de posiciones
 
 switch(comando){
-    case 'listar':
+    case 'Listamos':
        for  (let i=0; i<tareas.length;i++){
        console.log('Titulo:' + tareas[i].titulo)
     }
     //console.log('mostrar lista de tareas')
         break
-    case 'agregar':
+    case 'Agregamos':
         let nuevoTitulo = process.argv[3]
         let nuevaTarea = {
         titulo: nuevoTitulo,
